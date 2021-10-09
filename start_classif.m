@@ -6,7 +6,7 @@ addpath('./MSVMpack1.5/matlab');
 
 dataset_dir = './dataset/output/wav';
 
-methods = 2;   %[1 2 3 4];
+methods = [1 2 3 4];
 method_name = {'1D CNN' 'MFCC + CNN' 'STFT+CNN' 'TTB + SVM' };
 
 
@@ -15,7 +15,7 @@ fold{2} = loadfold('./fold2.txt');
 fold{3} = loadfold('./fold3.txt');
 
 da       = 3;  %% data augmentation ratio
-da_snr   = 20; %% data augmentation noise snr
+da_snr   = 25; %% data augmentation noise snr
 nb_class = 2;
 
 fp = fopen('./resultats.txt', 'w+t');

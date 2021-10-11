@@ -95,7 +95,6 @@ da = round(da);
       
       feats = abs(Sw(1:H,:)).^0.5;
       [nf, nt] = size(feats);
-      feats = reshape(feats, [1 nf*nt]);
       
       x(index,:,:) = feats;
    elseif features == 4 %% TTB
@@ -167,7 +166,6 @@ da = round(da);
       
         feats = abs(Sw(1:H,:)).^0.5;
         [nf, nt] = size(feats);
-        feats = reshape(feats, [1 nf*nt]);
       
         x(index,:,:) = feats;
         

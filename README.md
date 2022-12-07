@@ -1,8 +1,8 @@
 # beepiping
 Identification of Beehive Piping Signals
 
-A. Orlorwska, D. Fourer, Identification of Beehive Piping Signals, submitted to IEEE ICASSP 2022.\
-https://fourer.fr/icassp22
+D. Fourer and A. Orlorwska, DETECTION AND IDENTIFICATION OF BEEHIVE PIPING AUDIO SIGNALS, Proc. DCASE 2022\
+https://fourer.fr/dcase22
 
 Requirements:\
 Dataset : https://ieee-dataport.org/documents/identification-beehive-piping-audio-signals  (DOI: 10.21227/53mq-g936)
